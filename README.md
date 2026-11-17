@@ -4,6 +4,8 @@ This project tests how well an AI language model (LLM) can read an Amazon gift c
 
 ![Dashboard overview, balanced 3-class run](screenshots/dashboard_overview.png)
 
+> **Follow-up (Assignment 4):** a small 4B model fine-tuned on 900 reviews beat the 35B hosted model on the same task (macro-F1 0.82 vs. 0.70), mainly on 3-star reviews. See [`assignment4-fine-tuning/`](assignment4-fine-tuning/).
+
 ## The short version
 
 - **Telling happy from unhappy reviews is easy for the model.** On an even mix of 50 good and 50 bad reviews, it agreed with the star rating 99.0% of the time. Most of those reviews were very clear-cut (5-star or 1-star), though.
